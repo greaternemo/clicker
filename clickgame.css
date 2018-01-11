@@ -1,0 +1,49 @@
+body {
+    font-family: monospace;
+    background-color: #283138;
+    margin: auto;
+    overflow: auto;
+}
+
+div {
+    display: block;
+    margin: auto;
+    width: 95%;
+}
+
+div button {
+    display: block;
+    margin: auto;
+    width: auto;
+}
+
+table {
+    width: 100%;
+    /*box-shadow: 7px 7px lightgray;*/
+}
+
+code {
+    font-family: monospace;
+    font-size: x-large;
+    color: lightgrey;
+    text-align: center;
+    display: block;
+}
+
+tr {
+    transition-property: transform, background-color;
+    transition-duration: 500ms, 500ms;
+    transition-delay: 0s, 500ms;
+    transform-origin: top;
+    /*border: 2px solid lightgray;*/
+}
+
+.hidden {
+    transform: scaleY(0);
+}
+
+.visible {
+    transform: scaleY(1);
+    background-color: #182226;
+}
+

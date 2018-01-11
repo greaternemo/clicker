@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+    <link rel="stylesheet" type="text/css" href="clickgame.css">
+    
+    <head>
+        <title>clickgame</title>
+    </head>
+    
+    <body onload='ClickGame.init();'>
+        <div id='loop_box'>
+            <button id='loop_toggle' onclick='toggleLoop();'>
+                Toggle Loop
+            </button>
+        </div>
+        <div id='number_box'>
+            <table id='nbox_table'>
+                <tbody id='nbox_tbody'>
+                    <tr>
+                        <td>
+                            <code>
+                                TOTAL CLICKS:
+                            </code>
+                        </td>
+                        <td>
+                            <code>
+                                CLICKS PER SECOND:
+                            </code>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <code id='click_total'>
+                                0
+                            </code>
+                        </td>
+                        <td>
+                            <code id='click_rate'>
+                                0
+                            </code>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div id='click_box'>
+            <table id='cbox_table'>
+                <tbody id='cbox_tbody'>
+                </tbody>
+            </table>
+        </div>
+        <div id='game_box'>
+            <table id='gbox_table'>
+                <tbody id='gbox_tbody'>
+                </tbody>
+            </table>        
+        </div>     
+    </body>
+
+    <script src="clickgame.js"></script>
+        
+    </script>
+    
+</html>
